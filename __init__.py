@@ -4,6 +4,15 @@ import os
 import hashlib
 import re
 
+bl_info = {
+    "name": "import_latex_as_curve",
+    "author": "Reijaff",
+    "version": (0, 0, 1),
+    "blender": (2, 8, 0),
+    "location": "",
+    "warning": "",
+    "category": "3D View"}
+
 class WM_OT_import_latex_as_curve(bpy.types.Operator):
     bl_idname = "wm.import_latex_as_curve"
     bl_label = "Import as curve"
